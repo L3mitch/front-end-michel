@@ -1,0 +1,16 @@
+h2 {
+    color: chocolate;
+}
+
+.minha-classe{
+    color: magenta;
+}
+
+.minha-classe-2{
+    color: green;
+}
+
+#meu-id-1 {
+    color: burlywood;
+    text-align: justify;
+}

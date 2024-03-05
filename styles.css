@@ -10,6 +10,19 @@ h2 {
     color: green;
 }
 
+.maedefundo{
+    background-image: url(assets/image-asset.gif);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    font-size: 50px;
+    padding: 0px 0px 0px 400px; /*shorthand properties*/
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
 #meu-id-1 {
     color: burlywood;
     text-align: justify;

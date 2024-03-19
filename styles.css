@@ -31,3 +31,72 @@ h2 {
     color: burlywood;
     text-align: justify;
 }
+
+h3{
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+    h3 {
+        color: blue;
+        text-align: left;
+    }
+}
+h4{
+    color: red;
+    text-align: left;
+}
+@media  screen and (min-width: 400px) {
+    h4{
+        color: blue;
+        text-align: center;
+    }
+    
+}
+
+.elementos{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+@media screen and (orientation: landscape) {
+    .elementos{
+        display: inline-block;
+    }
+}
+
+.elemento-filho{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.elemento-pai{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.posicionamento{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.posicionada{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    text-align: center;
+    text
+}
+.shrink{
+    
+}
